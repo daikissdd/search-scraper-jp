@@ -1,0 +1,17 @@
+{
+  "name": "yahoo=rank-crower",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.0",
+    "cheerio-httpcli": "^0.3.8",
+    "lodash": "^3.10.1"
+  }
+}
