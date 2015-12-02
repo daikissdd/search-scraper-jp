@@ -1,5 +1,5 @@
 var yahooRankCrower = require('../index');
 
-yahooRankCrower("GOLFES", 3, (err, result) => {
+yahooRankCrower("マーガリンの塗り方", 2, (err, result) => {
 	console.log(result);
 });
