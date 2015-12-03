@@ -1,10 +1,13 @@
 {
   "name": "search-scraper-jp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "search-scraper-jp",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "./node_modules/.bin/mocha"
+  },
+  "engines": {
+    "node": "5.0.0"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,9 @@
     "async": "^1.5.0",
     "cheerio-httpcli": "^0.3.8",
     "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
   }
 }
-
