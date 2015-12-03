@@ -1,17 +1,26 @@
 {
   "name": "search-scraper-jp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "search-scraper-jp",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daikissdd/search-scraper-jp.git"
+  },
+  "keywords": [
+    "node",
+    "scraper",
+    "search"
+  ],
   "author": "daikissdd",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "async": "^1.5.0",
     "cheerio-httpcli": "^0.3.8",
     "lodash": "^3.10.1"
   }
 }
+
