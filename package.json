@@ -1,13 +1,13 @@
 {
   "name": "search-scraper-jp",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "search-scraper-jp",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha"
   },
   "engines": {
-    "node": "5.0.0"
+    "node": "0.10.36"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "chai": "^3.4.1",
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "shiromoji": "^1.0.4"
   }
 }
