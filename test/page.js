@@ -4,10 +4,10 @@ var expect = require('chai').expect;
 var scraper = require('../index');
 var shiromoji = require('shiromoji');
 
-describe('search-scraper-jp', () => {
-	it('page scraper', (done) => {
+describe('search-scraper-jp', function() {
+	it('page scraper', function(done) {
 		var url = 'http://www.hero-movie.com/';
-		scraper.page(url, (err, result) => {
+		scraper.page(url, function(err, result) {
 			console.log(result);
 			shiromoji(result.text, function(err, res) {
 				console.log(res);
