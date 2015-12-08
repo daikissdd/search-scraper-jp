@@ -1,6 +1,6 @@
 {
   "name": "search-scraper-jp",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "search-scraper-jp",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,6 @@
   },
   "devDependencies": {
     "chai": "^3.4.1",
-    "mocha": "^2.3.4",
-    "shiromoji": "^1.0.4"
+    "mocha": "^2.3.4"
   }
 }
